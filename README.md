@@ -1,9 +1,8 @@
-![turing_sortinghat](https://user-images.githubusercontent.com/78389005/134576281-25365f8e-d3b1-4ceb-8bdf-dad7b0fc1f3c.png)
-
 # Falconlor or Basilisk
 
-Falconlor or Basilisk is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15-25 questions that are designed to help students contemplate their decision towards one or the other. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly. Students might already have an idea which program they are leaning towards and hopefully this application will help with that decision. 
+Falconlor or Basilisk is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15-25 questions that are designed to help students contemplate their decision towards one or the other. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly --  hopefully this application will help students confirm the program they are already leaning towards based on what they already know about themselves and software development. 
 
+![turing_sortinghat](https://user-images.githubusercontent.com/78389005/134576281-25365f8e-d3b1-4ceb-8bdf-dad7b0fc1f3c.png)
 -------------------------------------------------
 # Getting Started with Create React App
 
