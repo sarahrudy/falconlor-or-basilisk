@@ -1,16 +1,16 @@
 import './QuestionCard.css'
 
 const QuestionCard = ({ questionProp, characterProp }) => {
-  // console.log(questionProp)
+  console.log(questionProp)
   // console.log(characterProp)
   return (
-    <article>
-      <div className="card-container">
-        <p>Question</p>
-        <p>Answer 1</p>
-        <p>Answer 2</p>
-        <img src={characterProp.image}></img>
+    <article className="card-container">
+      <div>
+        <p>{questionProp.question}</p>
+        <p>{questionProp.answer_be}</p>
+        <p>{questionProp.answer_fe}</p>
       </div>
+      <img src={characterProp.image}></img>
     </article>
   )
 }
