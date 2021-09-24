@@ -1,3 +1,5 @@
-/* .questions-container {
-  margin-top: 18vh;
-} */
+.questions-container {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+}
