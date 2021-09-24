@@ -19,7 +19,7 @@ const Questions = () => {
       return (
         <QuestionCard 
         questionProp= { question } 
-        characterProp= { images && images[i] }
+        characterProp= { images.length && images[i] }
       />
     )
   })
