@@ -1,11 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import questions from '../../data/questions'
 import '../Questions/Questions.css'
 import { fetchImages } from '../../apiCalls'
 
-const Questions = () => {
+const Questions = (props) => {
+  const [questions, setQuestions] = useState([])
+
   useEffect(() => {
     fetchImages()
+    // .then(data => setQuestions(data))
     .then(data => console.log(data))
   }, [])
 
