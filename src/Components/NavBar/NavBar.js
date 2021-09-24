@@ -10,7 +10,7 @@ const NavBar = () => {
       <Link to='/'>
         <img src={ turingSortingHat } className="turing-sorting-hat" alt="turing logo with sorting hat"></img>
       </Link>
-      <h1>  Turing Sorting Hat</h1>
+      <h1>Turing Sorting Hat</h1>
     </nav>
   )
 }
