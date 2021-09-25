@@ -10,7 +10,7 @@ const QuestionCard = ({ questionProp, characterProp }) => {
         <p>{questionProp.answer_be}</p>
         <p>{questionProp.answer_fe}</p>
       </div>
-      <img src={characterProp.image}></img>
+      <img className="hogwarts-headshot" src={characterProp.image} alt="Hogwarts headshot"></img>
     </article>
   )
 }
