@@ -11,12 +11,12 @@ nav {
 
 h1 {
   font-family: 'Gluten', cursive; 
-  font-size: 5vh;
+  font-size: 6vh;
   width: auto;
 }
 
-img {
-  padding: 15px;
+.turing-sorting-hat {
+  padding: 30px;
 }
 
 .turing-sorting-hat {
