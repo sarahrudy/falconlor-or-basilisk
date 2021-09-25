@@ -1,6 +1,6 @@
 export const questionsMockData = [
   {
-    question: 'When building IKEA furniture, I prefer to build the item',
+    question: 'When building IKEA furniture, I prefer to build the item:',
     answer_be: 'without looking at the instructions on how to build it',
     answer_fe: 'while looking at the pictures and following step by step',
   },
@@ -70,7 +70,7 @@ export const questionsMockData = [
     answer_be: 'Ruby / Ruby on Rails',
   },
   {
-    question: 'Without listening to the advice of anyone else, which program are you more drawn towards?',
+    question: 'Without listening to the advice of anyone else, my gut is telling me I\'d be a better fit for',
     answer_be: 'BE',
     answer_fe: 'FE',
   },
