@@ -1,15 +1,19 @@
+import React, { useState } from 'react'
 import './QuestionCard.css'
 
-const QuestionCard = ({ questionProp, characterProp }) => {
+const QuestionCard = ({ questionIndex, questionProp, characterProp }) => {
   // console.log(questionProp)
   // console.log(characterProp)
   return (
     <article className="card-container">
+      <div className="question-number">
+        <span>Question { questionIndex }</span>
+      </div>
       <div>
         <p>{questionProp.question}</p>
         <form>
           <div>
-            <label>
+            <label className="answer-a">
               <input
                 type="radio"
                 value="answer-a"
@@ -19,7 +23,7 @@ const QuestionCard = ({ questionProp, characterProp }) => {
             </label>
           </div>
           <div>
-            <label>
+            <label className="answer-b">
               <input
                 type="radio"
                 value="answer-b"

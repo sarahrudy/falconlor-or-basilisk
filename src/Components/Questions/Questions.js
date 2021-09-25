@@ -18,6 +18,7 @@ const Questions = () => {
     const singleQuestion = questions.map((question, i) => { 
       return (
         <QuestionCard 
+        questionIndex={ `${ i + 1 } / ${ questions.length }` } 
         questionProp= { question } 
         characterProp= { images.length && images[i] }
       />
