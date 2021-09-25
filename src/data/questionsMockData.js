@@ -1,3 +1,22 @@
+// export const questionsMockData = [
+// // possible question/answer format in order to count whether answer is FE or BE (where will the counter live?)
+//   {
+//     question: "question 1",
+//     answers: [
+//       {answer_a: "FE answer", program: "FE"},
+//       {answer_b: "BE answer", program: "BE"},
+//     ]
+//   }
+// // another possibility? 
+//   {
+//     question: "question 1",
+//     answers: [
+//       { answer_a: "FE answer", isBE: false, isFE: true },
+//       { answer_b: "BE answer", isBE: true, isFE: false},
+//     ]
+//   }
+
+
 export const questionsMockData = [
   {
     question: 'When building IKEA furniture, I prefer to build the item:',
@@ -70,7 +89,7 @@ export const questionsMockData = [
     answer_be: 'Ruby / Ruby on Rails',
   },
   {
-    question: 'Without listening to the advice of anyone else, my gut is telling me I\'d be a better fit for',
+    question: 'Without listening to the advice of anyone else, my gut is telling me I\'d be a better fit for;',
     answer_be: 'BE',
     answer_fe: 'FE',
   },
