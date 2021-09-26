@@ -3,7 +3,7 @@ import { questionsMockData } from '../../data/questionsMockData'
 import '../Questions/Questions.css'
 import { fetchImages } from '../../apiCalls'
 import QuestionCard from '../QuestionCard/QuestionCard'
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 const Questions = () => {
   const history = useHistory()
