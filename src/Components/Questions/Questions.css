@@ -5,3 +5,18 @@
   font-weight: bold;
   font-size: large;
 }
+
+.get-results-button {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.get-results-button:hover {
+  background-color: #a3a3a3;
+}
