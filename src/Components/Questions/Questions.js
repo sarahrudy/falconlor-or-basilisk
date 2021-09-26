@@ -23,6 +23,7 @@ const Questions = () => {
   const handleSelectAnswer = (program, id) => {
     const oppositeProgram = program === 'FE' ? 'BE' : 'FE'
     const isQuestionSelected = selectedAnswers[oppositeProgram].includes(id)
+    // debugger
     const newAnswers = isQuestionSelected
       ? {
         ...selectedAnswers,
@@ -36,6 +37,7 @@ const Questions = () => {
   }
 
   const handleSubmit = () => {
+    // eslint-disable-next-line
     const winningHouse = selectedAnswers.FE.length > selectedAnswers.BE.length
       ? 'FE' : 'BE'
   }
@@ -54,11 +56,13 @@ const Questions = () => {
 
   return (
     <div className="questions-container">
+      <div>
       { singleQuestion }
-      <div className="submit-button">
-        { selectedAnswers.FE.length + selectedAnswers.BE.length === questions.length &&
+      </div>
+      <div>
+        { selectedAnswers.FE.length + selectedAnswers.BE.length >= questions.length &&
         <Link to='/results'> 
-          <button onClick={() => handleSubmit()}>GET RESULTS</button>
+          <button onClick={() => handleSubmit()} className="get-results-button">GET RESULTS</button>
         </Link> }
       </div>
     </div>
