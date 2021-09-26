@@ -1,6 +1,9 @@
+import { useParams } from 'react-router'
 import '../Results/Results.css' 
 
-const Results = ({ winningHouse }) => {
+const Results = () => {
+  const { winningHouse } = useParams()
+  console.log(winningHouse)
 
   return (
     <div className="results-container">
