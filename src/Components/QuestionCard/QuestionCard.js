@@ -6,19 +6,17 @@ const QuestionCard = ({ questionIndex, questionProp, characterProp }) => {
   // console.log(characterProp)
   return (
     <article className="card-container">
-      <div className="question-number">
-        <span>Question { questionIndex }</span>
-      </div>
-      <div>
+      <div className="question-and-answers">
+        <p>{ questionIndex }</p>
         <p>{questionProp.question}</p>
         <form>
           <div>
             <label className="answer-a">
               <input
                 type="radio"
-                value="answer-a"
+                value={Object.keys(questionProp)[1]}
                 name="radio-button"
-                className="answer-a"           
+                className="answer-a" 
               />{questionProp.answer_be}
             </label>
           </div>
@@ -26,7 +24,7 @@ const QuestionCard = ({ questionIndex, questionProp, characterProp }) => {
             <label className="answer-b">
               <input
                 type="radio"
-                value="answer-b"
+                value={Object.keys(questionProp)[2]}
                 name="radio-button"
                 className="answer-b"
               />{questionProp.answer_fe}
