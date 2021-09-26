@@ -1,7 +1,6 @@
 .questions-container {
   margin-top: 18vh;
   display: flex;
-  margin-left: 60px;
   flex-direction: column;
   font-weight: bold;
   font-size: large;
