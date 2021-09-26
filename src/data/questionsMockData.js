@@ -54,8 +54,6 @@ export const questionsMockData = [
       {answer: 'build something from scratch', program: 'BE'},
       {answer: 'build on top of an existing boilerplate', program: 'FE'},
     ]
-    answer_be: ,
-    answer_fe: ,
   },
   {
     id: 8,
