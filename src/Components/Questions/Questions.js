@@ -26,11 +26,11 @@ const Questions = () => {
     // debugger
     const newAnswers = isQuestionSelected
       ? {
-        ...selectedAnswers,
-        [program]: [...selectedAnswers[program], id]
-      } : {
         [program]: [...selectedAnswers[program], id],
         [oppositeProgram]: selectedAnswers[oppositeProgram].filter(savedId => savedId !== id)
+      } : {
+        ...selectedAnswers,
+        [program]: [...selectedAnswers[program], id]
       }
 
     updateSelectedAnswers(newAnswers)
