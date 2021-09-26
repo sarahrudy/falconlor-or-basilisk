@@ -3,9 +3,10 @@ import { questionsMockData } from '../../data/questionsMockData'
 import '../Questions/Questions.css'
 import { fetchImages } from '../../apiCalls'
 import QuestionCard from '../QuestionCard/QuestionCard'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 const Questions = () => {
+  const history = useHistory()
   const [questions, setQuestions] = useState([])
   const [images, setImages] = useState([])
   const [selectedAnswers, updateSelectedAnswers] = useState({
@@ -37,9 +38,10 @@ const Questions = () => {
   }
 
   const handleSubmit = () => {
-    // eslint-disable-next-line
     const winningHouse = selectedAnswers.FE.length > selectedAnswers.BE.length
       ? 'FE' : 'BE'
+    history.push(`/results/${winningHouse}`)
+    // this should take us to /results/FE or /results/BE based on winningHouse
   }
 
   const singleQuestion = questions.map((question, i) => {
@@ -61,9 +63,8 @@ const Questions = () => {
       </div>
       <div>
         { selectedAnswers.FE.length + selectedAnswers.BE.length >= questions.length &&
-        <Link to='/results'> 
-          <button onClick={() => handleSubmit()} className="get-results-button">GET RESULTS</button>
-        </Link> }
+          <button onClick={handleSubmit} className="get-results-button">GET RESULTS</button>
+        }
       </div>
     </div>
   )
