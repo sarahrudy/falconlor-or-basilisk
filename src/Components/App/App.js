@@ -8,9 +8,6 @@ import Results from '../Results/Results'
 
 const App = () => {
 
-  // const [scoreBE, setScoreBE] = useState(0)
-  // const [scoreFE, setScoreFE] = useState(0)
-
   return (
     <main className="App">
       <NavBar />
