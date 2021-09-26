@@ -6,3 +6,14 @@
   align-items: center;
 }
 
+.take-quiz-again-button {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  border: solid 2px black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+}
+
