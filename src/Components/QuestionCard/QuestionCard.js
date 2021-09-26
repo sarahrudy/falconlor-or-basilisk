@@ -1,24 +1,23 @@
-import React, { useState } from 'react'
 import './QuestionCard.css'
 
-const QuestionCard = ({ questionIndex, questionProp, characterProp }) => {
+const QuestionCard = ({ onSelectAnswer, questionIndex, questionProp, characterProp }) => {
   // console.log(questionProp)
   // console.log(characterProp)
   return (
     <article className="card-container">
       <div className="question-and-answers">
-        <p>{questionIndex}</p>
+        <p className="question-index">{questionIndex}</p>
         <p>{questionProp.question}</p>
         <form>
           {questionProp.answers.map(answer => (
             <div>
-              <label className="answer-a">
+              <label>
                 <input
                   type="radio"
                   value={answer.answer}
                   name="radio-button"
-                  className="answer-a"
-                  // onChange={() => onSelectAnswer(answer.program, questionProp.id)}
+                  className="answer"
+                  onChange={() => onSelectAnswer(answer.program, questionProp.id)}
                 />{answer.answer}
               </label>
             </div>
