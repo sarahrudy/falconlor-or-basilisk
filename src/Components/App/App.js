@@ -3,7 +3,7 @@ import '../App/App.css'
 import NavBar from '../NavBar/NavBar'
 import { Route } from 'react-router-dom'
 import Questions from '../Questions/Questions'
-// import Results from '../Results/Results'
+import Results from '../Results/Results'
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
     <main className="App">
       <NavBar />
       <Route exact path="/" component={ Questions } />
-      {/* <Route exact path="/results" component={ Results } /> */}
+      <Route exact path="/results" component={ Results } />
     </main>
   )
 }
