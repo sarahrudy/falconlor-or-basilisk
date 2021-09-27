@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar'
 import { Route } from 'react-router-dom'
 import Questions from '../Questions/Questions'
 import Results from '../Results/Results'
+import Error from '../Error/Error'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <NavBar />
       <Route exact path="/" component={ Questions } />
       <Route exact path="/results/:winningHouse" component={ Results } />
+      <Route exact path="/error" component={ Error } />
     </main>
   )
 }
