@@ -14,7 +14,7 @@ const App = () => {
       <NavBar />
       <Route exact path="/" component={ Questions } />
       <Route exact path="/results/:winningHouse" component={ Results } />
-      <Route exact path="/error" component={ Error } />
+      <Route component={ Error } />
     </main>
   )
 }
