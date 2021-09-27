@@ -1,8 +1,6 @@
 import './QuestionCard.css'
 
 const QuestionCard = ({ onSelectAnswer, questionIndex, questionProp, characterProp }) => {
-  // console.log(questionProp)
-  // console.log(characterProp)
   return (
     <article className="card-container">
       <div className="question-and-answers">

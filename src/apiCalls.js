@@ -1,5 +1,5 @@
 export const fetchImages = () => {
-  return fetch('http://hp-api.herokuapp.com/api/characters')
+  return fetch('https://hp-api.herokuapp.com/api/characters')
   .then(response => checkError(response))
   .catch(error => console.log(error))
 }

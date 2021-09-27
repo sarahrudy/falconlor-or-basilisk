@@ -9,74 +9,74 @@ export const questionsMockData = [
   },
   {
     id: 2,
-    question: 'If I worked at Chipotle, I would prefer to work:',
+    question: 'I would prefer to:',
     answers: [
-      {answer: 'in the front of the house building delicious burritos for customers', program: 'FE' },
-      {answer: 'in the back of the house making sure everything is timed correctly so the front of the house never runs out of food to serve', program: 'BE' },
+      {answer: 'figure out the logic on how to display data on a web browser', program: 'FE'},
+      {answer: 'figure out the logic on how to manipulate data for a server', program: 'BE'},
     ]
   },
   {
     id: 3,
-    question: 'I would prefer to:',
+    question: 'If I worked at Chipotle, I would prefer to work:',
     answers: [
-      {answer: 'figure out the logic on how to display data', program: 'FE'},
-      {answer: 'figure out the logic on how to manipulate data', program: 'BE'},
+      {answer: 'in the front of the house building burritos for customers', program: 'FE' },
+      {answer: 'in the back of the house making sure everything is timed correctly so the front of the house never runs out of food to serve', program: 'BE' },
     ]
   },
   {
     id: 4,
     question: 'Pick one:',
     answers: [
-      { answer: 'I like to build things from scratch without seeing the end result', program: 'BE' },
-      { answer: 'When I build things I like to see them finished', program: 'FE' },
+      { answer: 'When I build things I like to see the finished product in its usable form.', program: 'FE' },
+      { answer: 'I like to build things from scratch--the end result isn\'t as important to me.', program: 'BE' },
     ]
   },
-  // {
-  //   id: 5,
-  //   question: 'If someone tells me directions:',
-  //   answers: [
-  //     {answer: 'I will get my bearings more quickly if I can see it on a map', program: 'FE'},
-  //     {answer: 'I can picture exactly what they’re talking about without needing to see it', program: 'BE'},
-  //   ]
-  // },
+  {
+    id: 5,
+    question: 'If someone tells me directions:',
+    answers: [
+      {answer: 'I can picture where to go without needing to see it on a map', program: 'BE'},
+      {answer: 'I will get my bearings more quickly if I can see it on a map', program: 'FE'},
+    ]
+  },
   // {
   //   id: 6,
   //   question: 'When thinking about how a user will interact with my app:',
   //   answers: [
-  //     {answer: 'I am not super concerned about how the user will interact with my app', program: 'BE'},
-  //     {answer: 'I am interested in making the app user friendly and accessible by everyone', program: 'FE'},
+    //     {answer: 'I am interested in making the app user friendly and accessible by everyone', program: 'FE'},
+    //     {answer: 'How the user interacts with my app isn't as important to me', program: 'BE'},
   //   ]
   // },
   // {
   //   id: 7,
-  //   question: 'I would rather:',
+  //   question: 'When learning the fundamentals of software development, I would rather:',
   //   answers: [
   //     {answer: 'build something from scratch', program: 'BE'},
-  //     {answer: 'build on top of an existing boilerplate', program: 'FE'},
+  //     {answer: 'build on top of something that already exists', program: 'FE'},
   //   ]
   // },
   // {
   //   id: 8,
-  //   question: 'When I receive directions:',
+  //   question: 'Spacing and font on a page is important to me:',
   //   answers: [
-  //     {answer: 'I can easily conceptualize what to do next', program: 'BE'},
-  //     {answer: 'I would prefer to write things down first', program: 'FE'},
+  //     {answer: 'false', program: 'BE'},
+  //     {answer: 'true', program: 'FE'},
   //   ]
   // },
   // {
   //   id: 9,
-  //   question: 'I would rather:',
+  //   question: 'When I think about my future as a software developer:',
   //   answers: [
-  //     {answer: 'paint a picture of the mountains', program: 'FE'},
-  //     {answer: 'build the canvas the picture is painted on', program: 'BE'},
+  //     { answer: 'I want to build the parts of the app the user interacts with', program: 'FE' },
+  //     { answer: 'working primarily with the parts of the app the user doesn\'t see', program: 'BE' },
   //   ]
   // },
   // {
   //   id: 10,
-  //   question: 'Making an application visually appealing is important to me',
+  //   question: 'When building IKEA furniture, I prefer to:',
   //   answers: [
-  //     {answer: 'false', program: 'BE'},
-  //     {answer: 'true', program: 'FE'},
+  //     { answer: 'wing it', program: 'BE' },
+  //     { answer: 'use the diagrams to put everything together', program: 'FE' },
   //   ]
   // },
   // {
@@ -121,26 +121,26 @@ export const questionsMockData = [
   // },
   // {
   //   id: 16,
-  //   question: 'When building IKEA furniture, I prefer to:',
+  //   question: '',
   //   answers: [
-  //     { answer: 'wing it - I don\'t need the instructions', program: 'BE' },
-  //     { answer: 'use the diagrams to put everything together', program: 'FE' },
+  //     { answer: '', program: 'BE' },
+  //     { answer: '', program: 'FE' },
   //   ]
   // },
   // {
   //   id: 17,
-  //   question: 'When I think about my future as a software developer:',
+  //   question: '',
   //   answers: [
-  //     { answer: 'I want to build the parts of the app the user interacts with', program: 'FE' },
-  //     { answer: 'working primarily with the parts of the app the user doesn't see', program: 'BE' },
+  //     { answer: '', program: 'FE' },
+  //     { answer: '', program: 'BE' },
   //   ]
   // },
   // {
   //   id: 18,
-  //   question: 'I have an interest in visual design:',
+  //   question: '',
   //   answers: [
-  //     { answer: 'true', program: 'FE' },
-  //     { answer: 'false', program: 'BE' },
+  //     { answer: '', program: 'FE' },
+  //     { answer: '', program: 'BE' },
   //   ]
   // },
   // {
