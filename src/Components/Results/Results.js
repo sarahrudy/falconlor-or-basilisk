@@ -4,7 +4,6 @@ import '../Results/Results.css'
 
 const Results = () => {
   const { winningHouse } = useParams()
-  console.log(winningHouse)
 
   return (
     <div className="results-container">
