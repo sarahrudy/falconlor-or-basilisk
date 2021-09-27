@@ -18,7 +18,7 @@ describe('turing-sorting-hat-app', () => {
   })
 
   it('should have clickable radio buttons for questions', () => {
-    cy.get('#button')
+    cy.get('[type="radio"]')
       .parent()
       .find('input')
       .should('have.class', 'answer')
