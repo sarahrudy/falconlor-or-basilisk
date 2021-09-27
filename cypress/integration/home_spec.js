@@ -12,9 +12,20 @@ describe('turing-sorting-hat-app', () => {
       .contains('Turing Sorting Hat')
   })
 
-  it('should render questions on page load', () => {
+  it('should render individual question containers on page load', () => {
     cy.get('.questions-container > :nth-child(1) > :nth-child(1)')
+      .should('have.length', 1)
   })
+
+  it('should have clickable radio buttons for questions', () => {
+    cy.get('#button')
+      .parent()
+      .find('input')
+      .should('have.class', 'answer')
+  })
+
+
+
 
 })
 
