@@ -1,10 +1,15 @@
-describe('turing-sorting-app', () => {
+describe('turing-sorting-hat-app', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000')
   })
 
   it('should show the turing hat logo in the nav bar', () => {
     cy.get('.turing-sorting-hat')
+  })
+
+  it('should show the title of the app in the nav bar', () => {
+    cy.get('h1')
+      .contains('Turing Sorting Hat')
   })
 })
 
