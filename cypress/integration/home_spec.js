@@ -11,6 +11,11 @@ describe('turing-sorting-hat-app', () => {
     cy.get('h1')
       .contains('Turing Sorting Hat')
   })
+
+  it('should render questions on page load', () => {
+    cy.get('.questions-container > :nth-child(1) > :nth-child(1)')
+  })
+
 })
 
 // describe('example to-do app', () => {
