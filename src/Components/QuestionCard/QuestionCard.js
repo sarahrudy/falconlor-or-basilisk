@@ -5,10 +5,10 @@ const QuestionCard = ({ onSelectAnswer, questionIndex, questionProp, characterPr
     <article className="card-container">
       <div className="question-and-answers">
         <p className="question-index">{questionIndex}</p>
-        <p>{questionProp.question}</p>
+        <p className="question">{questionProp.question}</p>
         <form>
           {questionProp.answers.map(answer => (
-            <div>
+            <div key={answer.answer}>
               <label>
                 <input
                   type="radio"
