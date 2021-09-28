@@ -11,8 +11,8 @@ export const questionsMockData = [
     id: 2,
     question: 'I would prefer to write the logic:',
     answers: [
-      {answer: 'on how to display data on a web browser', program: 'FE'},
       {answer: 'on how to manipulate data for a server', program: 'BE'},
+      {answer: 'on how to display data on a web browser', program: 'FE'},
     ]
   },
   {
