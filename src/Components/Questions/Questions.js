@@ -62,8 +62,11 @@ const Questions = () => {
       { singleQuestion }
       </div>
       <div>
-        { selectedAnswers.FE.length + selectedAnswers.BE.length >= questions.length &&
-          <button onClick={handleSubmit} className="get-results-button">GET RESULTS</button>
+        {selectedAnswers.FE.length + selectedAnswers.BE.length < questions.length 
+        ? 
+        <h1 className="answer-all-questions">Please answer all questions on page to see your results!</h1> 
+        : 
+        <button onClick={handleSubmit} className="get-results-button">GET RESULTS</button>
         }
       </div>
     </div>
