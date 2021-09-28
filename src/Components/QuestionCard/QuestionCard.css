@@ -13,6 +13,7 @@
 .question-and-answers {
   margin: 0 0 30px 0;
 }
+
 .question-index {
   margin: 0 0 30px 0;
   font-weight: lighter;
@@ -28,6 +29,11 @@ p {
   margin: 10px;
 }
 
+.question {
+  font-weight: bold;
+}
+
 .answer {
   margin: 15px 15px 0 15px;
 }
+

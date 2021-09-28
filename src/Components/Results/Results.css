@@ -1,19 +1,26 @@
-.results-container {
-  margin-top: 20vh;
+.results-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.take-quiz-again-button {
-  background-color: #dcdcdc;
-  font-weight: bold;
-  font-size: larger;
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   color: black;
+  padding: 30px;
+  margin: 15px;
+  max-width: 80vw;
+  border-radius: 20px;
   border: solid 2px black;
-  border-radius: 15px;
-  padding: 15px;
-  margin: 20px;
+  margin-top: 20vh;
+}
+
+.results-line {
+  color: black
 }
 
