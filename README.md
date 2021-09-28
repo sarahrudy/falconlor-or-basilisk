@@ -1,78 +1,44 @@
 # Turing Sorting Hat
 
+Turing Sorting Hat is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15-25 questions that are designed to help students contemplate their decision towards one or the other. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly --  hopefully this application will help students confirm the program they are already leaning towards based on what they already know about themselves and software development.
+
 Take the quiz [here](https://turing-sorting-hat.surge.sh/)!
 
-Turing Sorting Hat is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15-25 questions that are designed to help students contemplate their decision towards one or the other. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly --  hopefully this application will help students confirm the program they are already leaning towards based on what they already know about themselves and software development. 
+### GIF
 
-![turing_sortinghat](https://user-images.githubusercontent.com/78389005/134576281-25365f8e-d3b1-4ceb-8bdf-dad7b0fc1f3c.png)
--------------------------------------------------
-# Getting Started with Create React App
+**Answer all questions to be taken to results page**
+![sorting-hat-gif](https://user-images.githubusercontent.com/78389005/135011009-fdf5f9f7-a3d6-4471-94b9-3d5a996a2005.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Learning Goals
 
-## Available Scripts
+This project was the most fun to create to date. We have been working with React for the last 5 weeks and this project allowed us to come up with our own idea, find an API that fit our idea, and create an app that is unique and different. Implementing hooks into the project wasn't a requirement but it was a fun challenge. 
 
-In the project directory, you can run:
+### Contributor
 
-### `npm start`
++ [Sarah Rudy](https://github.com/sarahrudy)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Technologies Used
++ React
++ React Router
++ React Hooks
++ Cypress (testing framework)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
-### `npm test`
+### Instructions for Running and Viewing 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repo to your local computer  
+`git clone git@github.com:sarahrudy/turing-sorting-hat.git`
+2. Install NPM packages  
+`npm install`
+3. Run the app from your terminal  
+`npm start`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser  
 
-### `npm run build`
+### Future Additions 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
++ User will be able to answer more than 15 questions
++ User will be able to navigate to an information page that lists the tech stacks for each program and more information about what each program focuses on 
++ Results page will be customized for the percentage of BE or FE answers the user selected (e.g. if a user selects 60% FE and 40% BE answers, they might see something like "You seem to have an eye for design so you might enjoy the frontend curriculum a little more, but the backend program would also be a good fit for you." 
++ User will be able to see which questions they got correct and which questions they got wrong 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
