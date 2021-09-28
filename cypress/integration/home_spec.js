@@ -22,17 +22,21 @@ describe('turing-sorting-hat-app', () => {
       .parent()
       .find('input')
       .should('have.class', 'answer')
+      .check()
   })
 
   it('should display "get results" button after one question on each card is checked', () => {
     cy.get('[type="radio"]')
+      .parent()
+      .find('input')
+      .should('have.class', 'answer')
       .check()
     cy.get('.get-results-button')
       .contains('GET RESULTS')      
   })
 
 
-  
+
 
 })
 
