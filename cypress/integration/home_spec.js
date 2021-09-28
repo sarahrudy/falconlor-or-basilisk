@@ -45,4 +45,13 @@ describe('turing-sorting-hat-app', () => {
       .click()
       .url().should('include', 'results/BE')
   })
+
+  it('should render a 404 page when url is incorrect', () => {
+    cy.visit('http://localhost:3000/puppies')
+      .get('.page-not-found')
+      .get('.error-message')
+      .contains('404: Page Not Found')
+      .get('.go-back-to-quiz')
+      .contains('GO BACK TO QUIZ')
+  })
 })
