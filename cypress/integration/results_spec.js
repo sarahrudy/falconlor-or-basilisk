@@ -20,6 +20,18 @@ describe('results page backend', () => {
   })
 })
 
+describe('take quiz again button', () => {
+  beforeEach(() => {
+    cy.visit('http://localhost:3000/results/BE')
+  })
+
+  it('should have a way to return to the main page', () => {
+    cy.get('.take-quiz-again-button')
+      .click()
+      .url().should('include', '/')
+  })
+})
+
 
 
 
