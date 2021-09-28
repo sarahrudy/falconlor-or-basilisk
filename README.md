@@ -4,9 +4,6 @@ Turing Sorting Hat is an interactive web application geared towards incoming Tur
 
 Take the quiz [here](https://turing-sorting-hat.surge.sh/)!
 
-### GIF
-
-**Answer all questions to be taken to results page**
 ![sorting-hat-gif](https://user-images.githubusercontent.com/78389005/135011009-fdf5f9f7-a3d6-4471-94b9-3d5a996a2005.gif)
 
 ### Learning Goals
