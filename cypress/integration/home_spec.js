@@ -34,4 +34,15 @@ describe('turing-sorting-hat-app', () => {
     cy.get('.get-results-button')
       .contains('GET RESULTS')      
   })
+
+  it('should take user to the results page when get results button is clicked', () => {
+    cy.get('[type="radio"]')
+      .parent()
+      .find('input')
+      .should('have.class', 'answer')
+      .check()
+    cy.get('.get-results-button')
+      .click()
+      .url().should('include', 'results/BE')
+  })
 })
