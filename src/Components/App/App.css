@@ -9,4 +9,5 @@ main {
   align-items: center;
   overflow: scroll;
   height: 100vh;
+  background-image: url('../../Images/hogwarts-castle.png');
 }
