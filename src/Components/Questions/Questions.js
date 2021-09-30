@@ -24,7 +24,7 @@ const Questions = () => {
   const handleSelectAnswer = (program, id) => {
     const oppositeProgram = program === 'FE' ? 'BE' : 'FE'
     const isQuestionSelected = selectedAnswers[oppositeProgram].includes(id)
-    // debugger
+
     const newAnswers = isQuestionSelected
       ? {
         [program]: [...selectedAnswers[program], id],
