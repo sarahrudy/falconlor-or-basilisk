@@ -13,7 +13,7 @@ const Questions = () => {
     FE: [],
     BE: [],
   })
-
+ 
   useEffect(() => {
     fetchImages()
     .then(data => setImages(data))
