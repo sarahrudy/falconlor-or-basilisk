@@ -1,6 +1,6 @@
 # Turing Sorting Hat
 
-Turing Sorting Hat is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15-25 questions that are designed to help students contemplate their decision towards one or the other. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly --  hopefully this application will help students confirm the program they are already leaning towards based on what they already know about themselves and software development.
+Turing Sorting Hat is an interactive web application geared towards incoming Turing students trying to decide between the frontend or backend program. The user will be directed to a page with 15 questions that are designed to help students contemplate their decision towards the program that appeals to them the most. Both programs involve complex logic, problem solving, quick learning, and the ability to overcome obstacles quickly, but the frontend curriculum focuses more on the logic behind UX/UI whereas the backend curriculum focuses more on the server side applications. 
 
 Take the quiz [here](https://turing-sorting-hat.surge.sh/)!
 
