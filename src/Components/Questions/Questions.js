@@ -41,7 +41,6 @@ const Questions = () => {
     const winningHouse = selectedAnswers.FE.length > selectedAnswers.BE.length
       ? 'FE' : 'BE'
     history.push(`/results/${winningHouse}`)
-    // this should take us to /results/FE or /results/BE based on winningHouse
   }
 
   const singleQuestion = questions.map((question, i) => {

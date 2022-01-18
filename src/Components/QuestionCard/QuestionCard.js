@@ -22,7 +22,7 @@ const QuestionCard = ({ onSelectAnswer, questionIndex, questionProp, characterPr
           ))}
         </form>
       </div>
-      <img className="hogwarts-headshot" src={characterProp.image} alt="Hogwarts headshot"></img>
+      {/* <img className="hogwarts-headshot" src={characterProp.image} alt="Hogwarts headshot"></img> */}
     </article>
   )
 }
