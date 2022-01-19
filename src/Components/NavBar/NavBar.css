@@ -1,12 +1,17 @@
 nav {
   background-color: #bcb7b3;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
   border-bottom: solid 2px black;
   height: 15vh;
   width: 100%;
   position: fixed;
+}
+
+.logo-and-title {
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -16,9 +21,18 @@ h1 {
   color: #322416;
 }
 
+h2 {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
 .turing-sorting-hat {
   padding: 30px;
   height: 13vh;
   width: auto;
   opacity: 1;
+}
+
+h2:hover {
+  color: darkblue; 
 }

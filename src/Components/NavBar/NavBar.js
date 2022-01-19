@@ -7,10 +7,14 @@ const NavBar = () => {
 
   return (
     <nav>
-      <Link to='/'>
-        <img src={ turingSortingHat } className="turing-sorting-hat" alt="turing logo with sorting hat"></img>
-      </Link>
-      <h1>Turing Sorting Hat</h1>
+      <div className="logo-and-title">
+        <Link to='/'>
+          <img src={ turingSortingHat } className="turing-sorting-hat" alt="turing logo with sorting hat"></img>
+        </Link>
+        <h1>Turing Sorting Hat</h1>
+      </div>
+      <h2>Frontend</h2>
+      <h2>Backend</h2>
     </nav>
   )
 }
