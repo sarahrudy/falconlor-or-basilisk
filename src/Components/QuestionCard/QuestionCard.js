@@ -4,13 +4,14 @@ const QuestionCard = ({ onSelectAnswer, questionIndex, questionProp, characterPr
   return (
     <article className="card-container">
       <div className="question-and-answers">
-        <p className="question-index">{questionIndex}</p>
+        <p className="question-index">Question {questionIndex}</p>
         <p className="question">{questionProp.question}</p>
         <form>
           {questionProp.answers.map(answer => (
-            <div key={answer.answer}>
+            <div>
               <label>
                 <input
+                  key={answer.answer}
                   type="radio"
                   value={answer.answer}
                   name="radio-button"
